@@ -1,0 +1,90 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fdfaf6;
+    margin: 0;
+    padding: 60px 20px;
+}
+
+.edit-container {
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #443c35; 
+}
+
+h1 {
+    color: #443c35;
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.book-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 8px;
+    color: #5d544b;
+    font-size: 0.9rem;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #dcdde1;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.2);
+}
+
+.btn-submit {
+    grid-column: 1 / -1;
+    background-color: #443c35;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s;
+    margin-top: 10px;
+}
+
+.btn-submit:hover {
+    background-color: #322c27;
+}
+
+.btn-back {
+    display: block;
+    text-align: center;
+    margin-top: 25px;
+    color: #575555;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.btn-back:hover {
+    color: #000000;
+    text-decoration: underline;
+}
