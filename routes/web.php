@@ -7,7 +7,6 @@ Route::get('/', function () {
     return redirect('/books');
 });
 
-
 Route::get('/books', [BookController::class,'index']);
 Route::post('/books123', [BookController::class,'store']);
 Route::get('/books/{id}/edit', [BookController::class,'edit']);
